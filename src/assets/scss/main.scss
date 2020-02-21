@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+//  Variables
+
+$primary: #2A829D;
+$family-sans-serif: 'Segoe UI';
+
+
+// Navbar
+$navbar-height: 6rem;
+$navbar-item-color: rgb(17, 17, 17);
+$navbar-item-hover-background-color:#f6f6f6 !important;
+$navbar-item-active-background-color: #f8f8f8;
+
+// Button
+$button-padding-vertical: 1rem;
+$button-padding-horizontal: 1rem;
+
+
+@import '~bulma';
+
+.navbar-item{
+    font-weight: bold;
+}
+p a{
+    color: $primary;
+    font-weight: bold;
+}
